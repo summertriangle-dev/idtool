@@ -2,14 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>application-identifier</key>
-	<string>*</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>PH7T7DHD79.jp.klab.lovelive-en</string>
-		<string>PH7T7DHD79.jp.klab.lovelive</string>
+		<string>*</string>
 	</array>
 </dict>
 </plist>
