@@ -10,8 +10,7 @@
 		F51D11351A1C2CD500707A9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D11341A1C2CD500707A9E /* main.m */; };
 		F51D113E1A1C2CD500707A9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51D113C1A1C2CD500707A9E /* Main.storyboard */; };
 		F51D11401A1C2CD500707A9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51D113F1A1C2CD500707A9E /* Images.xcassets */; };
-		F5BCF0671BEAD726001BE6F1 /* test.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = F5BCF0661BEAD726001BE6F1 /* test.entitlements */; settings = {ASSET_TAGS = (); }; };
-		F5BCF0691BEAD808001BE6F1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BCF0681BEAD808001BE6F1 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		F5BCF0691BEAD808001BE6F1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BCF0681BEAD808001BE6F1 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,6 +102,7 @@
 				TargetAttributes = {
 					F51D112E1A1C2CD500707A9E = {
 						CreatedOnToolsVersion = 6.1;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -132,7 +132,6 @@
 				F51D113E1A1C2CD500707A9E /* Main.storyboard in Resources */,
 				F51D11401A1C2CD500707A9E /* Images.xcassets in Resources */,
 				F5BCF0691BEAD808001BE6F1 /* Launch Screen.storyboard in Resources */,
-				F5BCF0671BEAD726001BE6F1 /* test.entitlements in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,10 +243,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = IDTool/test.entitlements;
 				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = IDTool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "totsuka.no.tsurugi.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = totsuka.no.tsurugi.IDTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -259,10 +259,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = IDTool/test.entitlements;
 				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = IDTool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "totsuka.no.tsurugi.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = totsuka.no.tsurugi.IDTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
